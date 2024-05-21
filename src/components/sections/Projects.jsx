@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styled from "styled-components";
 import { projects } from "../../data/constants";
 import ProjectCard from "../cards/ProjectCard";
@@ -57,7 +56,6 @@ const CardContainer = styled.div`
 `;
 
 const Projects = () => {
-  const [toggle, setToggle] = useState("all");
   return (
     <Container id="Projects">
       <Wrapper>
